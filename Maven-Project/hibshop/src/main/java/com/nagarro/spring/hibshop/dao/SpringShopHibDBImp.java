@@ -229,17 +229,17 @@ public class SpringShopHibDBImp implements SpringShopHibDB {
 				}
 				Iterator iterator = temp.iterator();
 				check = false;
-				System.out.println(PreferedTShirts.color);
+				/*System.out.println(PreferedTShirts.color);
 				System.out.println(PreferedTShirts.size);
 				System.out.println(PreferedTShirts.gender);
-				System.out.println(PreferedTShirts.preference);
+				System.out.println(PreferedTShirts.preference);*/
 				while (iterator.hasNext()) {
 
 					TShirts shirts = (TShirts) iterator.next();
-					System.out.println(shirts.getColor());
+					/*System.out.println(shirts.getColor());
 					System.out.println(shirts.getSize());
 					System.out.println(shirts.getGender());
-					System.out.println(shirts.getAvailability());
+					System.out.println(shirts.getAvailability());*/
 
 					if (shirts.getColor().equalsIgnoreCase(PreferedTShirts.color)
 							&& shirts.getSize().equalsIgnoreCase(PreferedTShirts.size)

@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 <%@page import="com.nagarro.spring.hibshop.constant.*"%>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">

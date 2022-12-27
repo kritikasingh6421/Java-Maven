@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 <%@page import="com.nagarro.spring.hibshop.constant.*"%>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
@@ -19,7 +19,7 @@
 <body>
 	<div class="background">
 		<div class="border">
-			<form action="authentication" method="get">
+			<form action="authentication" method="post">
 				<div class="row form-header-footer text-lg-start form-header-text">
 					<h2>Login</h2>
 				</div>

@@ -70,7 +70,7 @@ public class SearchTShirts implements Runnable {
 					//
 					for (String[] row : allData) {
 						if (dbOperations.count != Constants.ZERO) {
-
+                            //System.out.println("come in count more then one");
 							boolean temp = true;
 							Session session = dbOperations.factoryTShirts.openSession();
 							List tshirts = session.createQuery("FROM TShirts").list();
@@ -84,7 +84,7 @@ public class SearchTShirts implements Runnable {
 								}
 							}
 							if (temp) {
-								//System.out.println("new entry");
+								System.out.println("new entry");
 								// storing instance of class TShirts in database via store method
 								dbOperations.saveTShirts(new TShirts(row[0], row[1], row[2], row[3], row[4],
 										Float.valueOf(row[5]).floatValue(), Float.valueOf(row[6]).floatValue(),
